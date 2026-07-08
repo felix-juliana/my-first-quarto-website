@@ -1,0 +1,18 @@
+{
+  "title": "Analysis of babynames",
+  "description": "SIB training - Making a Quarto website",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "keywords": [
+    "R",
+    "quarto",
+    "tutorial"
+  ],
+  "creators": [
+    {
+      "name": "Juliana Felix",
+      "affiliation": "São Paulo State University",
+      "orcid": "0000-0002-8635-1674"
+    } 
+  ]
+}

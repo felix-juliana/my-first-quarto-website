@@ -6,6 +6,10 @@ This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
+```         
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21263422.svg)](https://doi.org/10.5281/zenodo.21263422)
+```
+
 ```{r}
 1 + 1
 ```
@@ -24,4 +28,4 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 -   *Plot the yearly trend of the top 10 baby names*
 
-\![Baby](https://live.staticflickr.com/108/311263968_6131948761.jpg){#fig-logo width=400 fig-align="right"}
+\![Baby](https://live.staticflickr.com/108/311263968_6131948761.jpg){#fig-logo width="400" fig-align="right"}

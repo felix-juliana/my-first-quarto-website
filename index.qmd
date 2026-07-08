@@ -6,9 +6,7 @@ This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```         
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21263422.svg)](https://doi.org/10.5281/zenodo.21263422)
-```
 
 ```{r}
 1 + 1

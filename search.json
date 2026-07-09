@@ -11,14 +11,7 @@
     "href": "interactive_compute.html",
     "title": "Interactive_compute",
     "section": "",
-    "text": "Histogram interacting with a javascript Observable input component:\n\nviewof sex_box = Inputs.checkbox(\n  [\"M\", \"F\"],\n  {\n    value: [\"M\", \"F\"],\n    label: \"Shown sexes:\",\n  }\n)\n\n\n\n\n\n\nA more complex examples with more interactive inputs (NB: it seems that when moving the slider the image get re-computed for each intermediate value, leading to some slowness sometimes) :\n\nviewof sex_show = Inputs.radio([\"M\", \"F\"], {label: \"Sex:\",value:\"F\"})\n\nviewof year = Inputs.range([1880, 2010], {step: 10, label: \"starting year:\"})\n\nviewof n_names = Inputs.range([1, 12], {step: 1, label: \"number of top names:\"})"
-  },
-  {
-    "objectID": "interactive_compute.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20696e636c756465202e2f5f657874656e73696f6e732f722d7761736d2f6c6976652f5f6b6e6974722e716d64203e7d7d",
-    "href": "interactive_compute.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20696e636c756465202e2f5f657874656e73696f6e732f722d7761736d2f6c6976652f5f6b6e6974722e716d64203e7d7d",
-    "title": "Interactive_compute",
-    "section": "",
-    "text": "Histogram interacting with a javascript Observable input component:\n\nviewof sex_box = Inputs.checkbox(\n  [\"M\", \"F\"],\n  {\n    value: [\"M\", \"F\"],\n    label: \"Shown sexes:\",\n  }\n)\n\n\n\n\n\n\nA more complex examples with more interactive inputs (NB: it seems that when moving the slider the image get re-computed for each intermediate value, leading to some slowness sometimes) :\n\nviewof sex_show = Inputs.radio([\"M\", \"F\"], {label: \"Sex:\",value:\"F\"})\n\nviewof year = Inputs.range([1880, 2010], {step: 10, label: \"starting year:\"})\n\nviewof n_names = Inputs.range([1, 12], {step: 1, label: \"number of top names:\"})"
+    "text": "Histogram interacting with a javascript Observable input component:\n\nviewof sex_box = Inputs.checkbox(\n  [\"M\", \"F\"],\n  {\n    value: [\"M\", \"F\"],\n    label: \"Shown sexes:\",\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA more complex examples with more interactive inputs (NB: it seems that when moving the slider the image get re-computed for each intermediate value, leading to some slowness sometimes) :\n\n\n\n\n\n\n\n\n\nviewof sex_show = Inputs.radio([\"M\", \"F\"], {label: \"Sex:\",value:\"F\"})\n\nviewof year = Inputs.range([1880, 2010], {step: 10, label: \"starting year:\"})\n\nviewof n_names = Inputs.range([1, 12], {step: 1, label: \"number of top names:\"})"
   },
   {
     "objectID": "analysis.html",

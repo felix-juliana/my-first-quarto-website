@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>analysis – my-first-quarto-website</title>
+<title>Analysis – my-first-quarto-website</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -137,11 +137,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./analysis.html" aria-current="page"> 
-<span class="menu-text">analysis</span></a>
+<span class="menu-text">Analysis</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./interactive_compute.html"> 
-<span class="menu-text">interactive_compute</span></a>
+<span class="menu-text">Interactive_compute</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -162,6 +162,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#load-libraries" id="toc-load-libraries" class="nav-link active" data-scroll-target="#load-libraries">Load libraries</a>
   <ul class="collapse">
   <li><a href="#display-the-first-10-lines-of-the-babynames-table" id="toc-display-the-first-10-lines-of-the-babynames-table" class="nav-link" data-scroll-target="#display-the-first-10-lines-of-the-babynames-table">Display the first 10 lines of the babynames table</a></li>
+  <li><a href="#display-the-top-10-names-in-a-line-plot" id="toc-display-the-top-10-names-in-a-line-plot" class="nav-link" data-scroll-target="#display-the-top-10-names-in-a-line-plot">Display the top 10 names in a line plot</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -171,7 +172,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">analysis</h1>
+<h1 class="title">Analysis</h1>
 </div>
 
 
@@ -291,6 +292,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
+</section>
+<section id="display-the-top-10-names-in-a-line-plot" class="level3">
+<h3 class="anchored" data-anchor-id="display-the-top-10-names-in-a-line-plot">Display the top 10 names in a line plot</h3>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">get_most_frequent</span>(babynames, <span class="at">select_sex =</span> <span class="st">"F"</span>) <span class="sc">|&gt;</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">plot_top</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>

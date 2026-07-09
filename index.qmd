@@ -2,28 +2,20 @@
 title: "my-first-quarto-website"
 ---
 
-This is a Quarto website.
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.21263422.svg)](https://doi.org/10.5281/zenodo.21263422)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### **This website was developed during the SIB training "Make your research FAIRer with Quarto, GitHub and Zenodo"**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21263422.svg)](https://doi.org/10.5281/zenodo.21263422)
+\![ ](https://live.staticflickr.com/108/311263968_6131948761.jpg){#fig-logo width="400" fig-align="right"}
 
-```{r}
-1 + 1
-```
+In this project we aim to visualize the trends of the most frequently used babynames from 1880 to 2017 in the United States. We do this by:
 
-*In this project we aim to visualize the trends of the most frequently used babynames from 1880 to 2017 in the United States. We do this by:*
+-   Understanding the different columns of the data set
 
--   *Understanding the different columns of the data set*
+-   Find the top 10 most frequently used baby names in the data for:
 
-<!-- -->
+    -   girls
 
--   *Find the top 10 most frequently used baby names in the data for:*
+    -   boys
 
-    -   *girls*
-
-    -   *boys*
-
--   *Plot the yearly trend of the top 10 baby names*
-
-\![Baby](https://live.staticflickr.com/108/311263968_6131948761.jpg){#fig-logo width="400" fig-align="right"}
+-   Plot the yearly trend of the top 10 baby names

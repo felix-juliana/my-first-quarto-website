@@ -2,11 +2,11 @@
 title: "my-first-quarto-website"
 ---
 
-[![](https://zenodo.org/badge/DOI/10.5281/zenodo.21263422.svg)](https://doi.org/10.5281/zenodo.21263422)
+![](https://zenodo.org/badge/DOI/10.5281/zenodo.21263422.svg)(https://doi.org/10.5281/zenodo.21263422)
 
 ### **This website was developed during the SIB training "Make your research FAIRer with Quarto, GitHub and Zenodo"**
 
-\![ ](https://live.staticflickr.com/108/311263968_6131948761.jpg){#fig-logo width="400" fig-align="right"}
+![ ](https://live.staticflickr.com/108/311263968_6131948761.jpg){#fig-logo width="400" fig-align="center"}
 
 In this project we aim to visualize the trends of the most frequently used babynames from 1880 to 2017 in the United States. We do this by:
 

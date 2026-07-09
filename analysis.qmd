@@ -1,5 +1,5 @@
 ---
-title: "analysis"
+title: "Analysis"
 ---
 
 ## Load libraries
@@ -49,6 +49,8 @@ plot_top <- function(x, top = 10) {
   return(p)
 }
 ```
+
+### Display the top 10 names in a line plot
 
 ```{r}
 #| label: fig-female-line-plot
